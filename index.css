@@ -421,7 +421,7 @@ button {
     transform-origin: right top;
     transform: skewY(-3deg);
     overflow: visible;
-    background-image: url(wood.jpg);
+    background-image: url(https://i.imgur.com/o6tEMBR.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -934,7 +934,7 @@ button {
     height: 112%;
     width: 100%;
     overflow: visible;
-    background-image: url("NewEnv3.png");
+    background-image: url("https://i.imgur.com/tjBkJ7m.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1261,7 +1261,7 @@ form {
     bottom: 0;
     transform-origin: 0% 0%;
     transform: skewY(-3deg);
-    background-image: url(toolboxCell.jpg);
+    background-image: url(https://i.imgur.com/mjKrbn5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
