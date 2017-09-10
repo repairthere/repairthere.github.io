@@ -6,7 +6,6 @@ function menuEventListen() {
 
 function hoverListen() {
     issues = [];
-
     var theParent = document.querySelector("#father");
     var apel = document.getElementById("apple");
     var sung = document.getElementById("samsung");
@@ -53,19 +52,17 @@ function contClick(e) {
 }
 
 function sendToSpree() {
-    var newObj = param(final()),
-        xhr = new XMLHttpRequest();
-
+    var passer = final();
+    var xhr = new XMLHttpRequest();
     xhr.open('POST', '//formspree.io/vrchavez05@gmail.com');
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onload = function () {
-        if (xhr.status !== 200) {
-            alert('Request failed.  Returned status of ' + xhr.status);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            var userInfo = JSON.parse(xhr.responseText);
         }
     };
-    xhr.send(newObj);
+    xhr.send(JSON.stringify(passer));
 }
-
 
 function param(object) {
     var encodedString = '';
@@ -89,7 +86,6 @@ function final() {
     var date = document.getElementById("sp").value;
     var zCode = document.getElementById("zp").value;
     var state = document.getElementById("st").value;
-
 
     var personData = {
         fullName: fullName,
@@ -543,28 +539,6 @@ function menuShower() {
     this.classList.toggle("change");
     menuHider();
 }
-
-
-/*function hoverChange() {
-    var x;
-    if (this.id == "iphone") {
-        document.getElementById("iph").style.color = "#723a44";
-        document.getElementById("iph").style.textShadow = "0 0 1px #723a44";
-    }
-    else if (this.id == "galaxy") {
-        document.getElementById("sam").style.color = "#723a44";
-        document.getElementById("sam").style.textShadow = "0 0 1px #723a44";
-
-    }
-    else if (this.id == "google") {
-        document.getElementById("goo").style.color = "#723a44";
-        document.getElementById("goo").style.textShadow = "0 0 1px #723a44";
-    }
-    else if (this.id == "ipad") {
-        document.getElementById("pad").style.color = "#723a44";
-        document.getElementById("pad").style.textShadow = "0 0 1px #723a44";
-    }
-}*/
 
 function startUp() {
     menuEventListen();
