@@ -34,8 +34,8 @@ body {
     right: 0;
     height: 100%;
     width: 100%;
-    /*background-image: url(wood.jpg);*/
-    background-image: url(toolboxCell.jpg);
+    /*background-image: url(https://i.imgur.com/o6tEMBR.jpg);*/
+    background-image: url(https://i.imgur.com/mPaWXt6.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -418,7 +418,7 @@ body {
     margin: auto;
     height: 183px;
     width: 92px;
-    background-image: url(iphoneNEW2.png);
+    background-image: url(https://i.imgur.com/HR7ooMX.png);
     background-position: center;
     background-size: cover;
     transition: .15s ease-in-out;
@@ -474,7 +474,7 @@ body {
     text-align: center;
     height: 183px;
     width: 91px;
-    background-image: url(pixelNEW2.png);
+    background-image: url(https://i.imgur.com/cXeIxAx.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -514,7 +514,7 @@ body {
     text-align: center;
     height: 180px;
     width: 120px;
-    background-image: url(ipad4.png);
+    background-image: url(https://i.imgur.com/rP2K9Fh.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1025,7 +1025,7 @@ body {
     margin-left: 1%;
     margin-right: 1%;
     display: inline-block;
-    background-image: url(iphoneNEW2.png);
+    background-image: url(https://i.imgur.com/HR7ooMX.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1033,7 +1033,7 @@ body {
 
     .iphTex2:hover {
         cursor: pointer;
-        background-image: url(iphoneNEW3.png);
+        background-image: url(https://i.imgur.com/acPJTo5.png);
     }
 
         .iphTex2:hover > .iphMod {
@@ -1101,7 +1101,7 @@ body {
 
     .samTex2:hover {
         cursor: pointer;
-        background-image: url(galaxyRed.png);
+        background-image: url(https://i.imgur.com/C8kGuhs.png);
     }
 
         .samTex2:hover > .sMod {
@@ -1141,7 +1141,7 @@ body {
 
     .galTex2:hover {
         cursor: pointer;
-        background-image: url(galaxyRed.png);
+        background-image: url(https://i.imgur.com/C8kGuhs.png);
     }
 
         .galTex2:hover > .gMod {
@@ -1185,7 +1185,7 @@ body {
 
     .pixTex2:hover {
         cursor: pointer;
-        background-image: url(galaxyRed.png);
+        background-image: url(https://i.imgur.com/C8kGuhs.png);
     }
 
         .pixTex2:hover > .pMod {
@@ -1238,7 +1238,7 @@ body {
 
     .chooTex2:hover {
         cursor: pointer;
-        background-image: url(galaxyRed.png);
+        background-image: url(https://i.imgur.com/C8kGuhs.png);
     }
 
         .chooTex2:hover > .chooMod {
@@ -1290,7 +1290,7 @@ body {
     margin-left: 1%;
     margin-right: 1%;
     display: inline-block;
-    background-image: url(ipad4.png);
+    background-image: url(https://i.imgur.com/rP2K9Fh.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1298,7 +1298,7 @@ body {
 
     .ipadTex2:hover {
         cursor: pointer;
-        background-image: url(ipad4Red.png);
+        background-image: url(https://i.imgur.com/DpoPP9g.png);
     }
 
         .ipadTex2:hover > .ipadMod {
@@ -2080,7 +2080,7 @@ input[type=date]::-webkit-inner-spin-button {
     opacity: 1;
     height: 100%;
     width: 100%;
-    background-image: url(wood.jpg);
+    background-image: url(https://i.imgur.com/o6tEMBR.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2111,7 +2111,7 @@ input[type=date]::-webkit-inner-spin-button {
     text-align: center;
     z-index: -1000;
     opacity: 0;
-    background-image: url(wood.jpg);
+    background-image: url(https://i.imgur.com/o6tEMBR.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
