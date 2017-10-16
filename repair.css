@@ -177,7 +177,7 @@ body {
     left: -10%;
     width: 90px;
     height: 90px;
-    background-image: url(http://i.imgur.com/Ok7zdRt.png);
+    background-image: url(https://i.imgur.com/Ok7zdRt.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -436,7 +436,7 @@ body {
     text-align: center;
     height: 183px;
     width: 92px;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1093,7 +1093,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     display: inline-block;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1133,7 +1133,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     display: inline-block;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1177,7 +1177,7 @@ body {
     height: 143px;
     width: 72px;
     bottom: 0;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1230,7 +1230,7 @@ body {
     height: 143px;
     width: 72px;
     bottom: 0;
-    background-image: url(http://i.imgur.com/oxLx2XJ.png);
+    background-image: url(https://i.imgur.com/oxLx2XJ.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2276,7 +2276,7 @@ switches to mobile styling of site.*/
         left: -10%;
         width: 90px;
         height: 90px;
-        background-image: url(http://i.imgur.com/Ok7zdRt.png);
+        background-image: url(https://i.imgur.com/Ok7zdRt.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -2290,7 +2290,7 @@ switches to mobile styling of site.*/
         animation-duration: 2.8s;
         animation-iteration-count: 1;
         animation-delay: .4s;
-        animation-fill-mode: forwards; /* http://i.imgur.com/Ok7zdRt.png */
+        animation-fill-mode: forwards; /* https://i.imgur.com/Ok7zdRt.png */
     }
 
     @-webkit-keyframes car {
