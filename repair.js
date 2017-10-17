@@ -746,7 +746,7 @@ function doStep2() {
     document.getElementById("ONE").style.display = "none";          //  ^^^^^^^^^^
     document.getElementById("st1TX").style.top = "28%";             //STEP ONE EDIT BUTTON HERE
 
-    setTimeout(function () { document.getElementById("car0").style.left = "46.5%" }, 55);
+    setTimeout(function () { document.getElementById("car0").style.left = "47.4%" }, 55);
 
     /*==========CHANGE COLOR AND SIZE OF STEP2 TEXT CENTER TOP OF PAGE============*/
     setTimeout(function () {
@@ -797,7 +797,7 @@ function doStep3() {
     document.getElementById("TWO").style.display = "none";
     document.getElementById("st2TX").style.top = "28%";
 
-    setTimeout(function () { document.getElementById("car0").style.left = "79.9%" }, 55);
+    setTimeout(function () { document.getElementById("car0").style.left = "80.5%" }, 55);
 
     /*==========CHANGE COLOR AND SIZE OF STEP3============*/
     setTimeout(function () {
